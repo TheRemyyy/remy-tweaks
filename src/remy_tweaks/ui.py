@@ -43,8 +43,6 @@ def set_title():
 def show_loading():
     clear_screen()
     print(BANNER)
-    # The original script had an input here, preserving the flow but making it optional/enter to continue could be better
-    # But adhering to original UX for now
     input(f"\n{PURPLE}       [PRESS ENTER TO START]{RESET}")
     time.sleep(0.2)
 
