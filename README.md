@@ -10,7 +10,7 @@
 
 *A powerful, modular Python utility for optimizing Windows performance, privacy, and gaming experience.*
 
-[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Safety](#safety)
+[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Documentation](#documentation)
 
 </div>
 
@@ -50,29 +50,28 @@ Run the utility as **Administrator** to ensure all system tweaks can be applied 
 python -m src.remy_tweaks.main
 ```
 
-### Menu Options
+## <a id="documentation"></a>📄 Documentation
 
-| Category | Option | Description |
-| :--- | :--- | :--- |
-| **Performance** | `[1]` Memory Usage | Optimize filesystem memory usage |
-| | `[7]` Power Throttling | Disable power throttling for max performance |
-| | `[8]` HAGS | Enable Hardware Accelerated GPU Scheduling |
-| | `[18]` Ultimate Plan | Activate High Performance power plan |
-| **Network** | `[2]` Wifi Sense | Disable Wifi Sense credential sharing |
-| | `[6]` Xbox Network | Disable Xbox Live networking services |
-| **Privacy** | `[15]` Secure Windows | Comprehensive telemetry and tracking disable |
-| | `[22]` Telemetry | Disable customer experience improvement programs |
-| **Services** | `[10]` Background Apps | Prevent apps from running in the background |
-| | `[23]` Bloat Services | Disable 50+ unnecessary system services |
+For deep-dive information on every modification, please refer to our documentation in the `docs/` directory:
+
+### Optimization Categories
+- 🚀 **[Performance](docs/categories/performance.md)** — CPU, RAM, and Power.
+- 🎮 **[Gaming](docs/categories/gaming.md)** — GPU and Latency.
+- 🛡️ **[Privacy](docs/categories/privacy.md)** — Telemetry and Sledování.
+- 🌐 **[Network](docs/categories/network.md)** — Connectivity bloat.
+- 🧹 **[Services](docs/categories/services.md)** — Bloatware removal.
+
+### Technical & Safety
+- 📖 **[Documentation Overview](docs/overview.md)** — Starting point.
+- ⚠️ **[Safety & Restoration](docs/technical/safety.md)** — **READ THIS FIRST**.
+- 🏗️ **[Architecture](docs/technical/architecture.md)** — How it works.
+- 📝 **[Registry Reference](docs/technical/registry.md)** — Modified keys.
 
 ## <a id="safety"></a>⚠️ Safety & Disclaimer
 
 **Use at your own risk.**
 
-While these tweaks are tested and commonly used in the optimization community, modifying Windows Registry and Services can potentially affect system stability.
-
-- Always create a **System Restore Point** before applying tweaks.
-- Review the source code in `src/remy_tweaks/tweaks/` to understand exactly what each option does.
+While these tweaks are tested and commonly used in the optimization community, modifying Windows Registry and Services can potentially affect system stability. **Always create a System Restore Point before applying tweaks.**
 
 ## License
 
