@@ -57,7 +57,7 @@ For deep-dive information on every modification, please refer to our documentati
 ### Optimization Categories
 - 🚀 **[Performance](docs/categories/performance.md)** — CPU, RAM, and Power.
 - 🎮 **[Gaming](docs/categories/gaming.md)** — GPU and Latency.
-- 🛡️ **[Privacy](docs/categories/privacy.md)** — Telemetry and Sledování.
+- 🛡️ **[Privacy](docs/categories/privacy.md)** — Telemetry and Tracking.
 - 🌐 **[Network](docs/categories/network.md)** — Connectivity bloat.
 - 🧹 **[Services](docs/categories/services.md)** — Bloatware removal.
 
